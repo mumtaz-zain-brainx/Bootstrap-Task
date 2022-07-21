@@ -3,14 +3,317 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Bootstrap CSS  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 
-    <title>AGELESS MULTI-COLLAGEN® PROTEIN POWDER</title>
+    <title>Ageless Multi-Collagen® Protein Powder</title>
 </head>
 <body>
-    <h1>AGELESS MULTI-COLLAGEN® PROTEIN POWDER</h1>
+    <div class="main">
+        <!-- Main Hero Section  -->
+        <section class="hero py-4 px-3 border-top border-5 border-primary ">
+
+            <!-- Navigation  -->
+            <div class="w-100">
+                <nav class="breadcrumb text-primary" role="navigation" aria-label="breadcrumbs">
+                    <a href="#" title="Home" class="text-decoration-none pe-1">HOME</a>                    
+                    <span aria-hidden="true" class="pe-1">›</span>
+                    <a href="#!" class="text-decoration-none">COLLAGEN PROTEIN</a>
+                </nav>
+            </div>
+
+            <div class="row">
+                <!-- Main Image Section -->
+                <div class="col-6">
+                    <div class="row">
+                        <div class="col-2 text-center">
+                            Verticle Carosel
+                        </div>
+                        <div class="col-10 d-flex flex-column justify-content-between align-items-center text-center">
+                            <!-- Title  -->
+                            <h3 itemprop="name" class="text-primary fw-bold">AGELESS MULTI-COLLAGEN® PROTEIN POWDER</h1>
+                            <!-- Rating  -->
+                            <div>
+                                <img src="//cdn.shopify.com/s/files/1/2451/8571/t/41/assets/featured_review_stars_small.png?v=115086123786708348821631221618" alt="review stars">
+                                <a href="#" class="text-decoration-none" aria-label="2697 reviews" tabindex="-1">2697 Reviews</a>
+                            </div>
+                            <!-- Image  -->
+                            <div class="w-75">
+                                <img class="img-fluid" src="./imgs/mainImg.webp" alt="image">
+                            </div>
+                            <!-- Image banner -->
+                            <div class="w-75">
+                                <img class="img-fluid" src="./imgs/mainBanner.webp" alt="image banner">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Package Price Section -->
+                <div class="col-6 d-flex flex-column gap-5 justify-content-beteen align-items-center ">
+                    <!-- Package Price Title -->
+                    <div class="packageTitle">
+                        <span class="text-primary fw-bold fs-3">Choose Your Package</span><br>
+                        <span>Select your money-saving option below:</span>
+                    </div>
+                    <!--Package Buttons -->
+                    <div class="buttons d-flex gap-3">
+                        <button type="button" class="btn btn-lg btn-primary">One-Time Purchase</button>
+                        <button type="button" class="btn btn-lg btn-outline-primary position-relative" 
+                        data-bs-toggle="tooltip" 
+                        data-bs-placement="top" 
+                        data-bs-custom-class="custom-tooltip" 
+                        data-bs-title="This top tooltip is themed via CSS variables.">
+                            Subscribe & Save 36%
+                            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
+                              ?
+                              <span class="visually-hidden">Information</span>
+                            </span>
+                        </button>
+                        
+                    </div>
+                    <!--Package Cards  -->
+                    <div class="cards row text-center px-3">
+                        <div class="col-4 px-5 py-4 d-flex flex-column justify-content-between align-items-center border border-3 border-primary">
+                            <div>
+                                <h2 class="text-primary fw-bold">1 Bag</h3>
+                                <h2 class="fw-bold">$49</h3>
+                            </div>
+                            <button class="btn btn-success">CHOOSE FLAVOR</button>
+                        </div>
+                        <div class="position-relative col-4 d-flex flex-column align-items-center border border-5 border-primary">
+                            <div class="position-absolute top-0 left-0 bg-primary w-100 text-light "><h4>Most Popular</h4></div>
+                            <div class="px-5 pt-5 pb-4 d-flex flex-column justify-content-between align-items-center">
+                                <div>
+                                    <h2 class="text-primary fw-bold">3 Bags</h3>
+                                    <h3 class="fw-bold text-success">$35 <br>Per Bag <br><span class="text-danger fs-5">(Save 28%)</span></h3>
+                                </div>
+                                <button class="btn btn-success mt-2">CHOOSE FLAVORS</button>
+                            </div>
+                        </div>
+                        <div class="col-4 px-5 py-4 d-flex flex-column justify-content-between align-items-center  border border-3 border-primary">
+                            <div>
+                                <h2 class="text-primary fw-bold">6 Bags</h3>
+                                <h3 class="fw-bold text-success">$31 <br>Per Bag <br><span class="text-danger fs-5">(Save 36%)</span></h3>
+                            </div>
+                            <button class="btn btn-success">CHOOSE FLAVORS</button>
+                        </div>
+                    </div>
+                    <!-- Horizotal Carousel -->
+                    <div class="bg-secondary w-100 text-center">
+                        <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel">
+
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="./imgs/mainImg.webp" width="100" height="100" class="img-thumbail mx-auto d-block"  alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./imgs/mainImg.webp" width="100" height="100" class="img-thumbail mx-auto d-block"  alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./imgs/mainImg.webp" width="100" height="100" class="img-thumbail mx-auto d-block"  alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Description Section  -->
+        <section class="ps-5 py-5  border-top border-5 border-primary">
+            <div class="d-flex flex-column gap-3">
+                <h4>The No-Clump Collagen Protein Powder</h2>
+                <strong>Ageless Multi-Collagen Provides You 5 Types of Collagen to Support:</strong>
+                <ul>
+                    <li>Healthy Skin, Hair, and Nails<sup><a href="#footnote-fda-disclaimer"><span class="pe-1"></span>†</a></sup>
+                    </li>
+                    <li>Gut, Joint, and Bone Health<sup><a href="#footnote-fda-disclaimer"><span class="pe-1"></span>†</a></sup>
+                    </li>
+                    <li>Athletic Performance, Recovery, and an Active Lifestyle<sup><a href="#footnote-fda-disclaimer"><span class="pe-1"></span>†</a></sup>
+                    </li>
+                    </ul>
+                    <strong>Plus, Every Serving of Ageless Multi-Collagen is:</strong>
+                    <ul>
+                    <li>Loaded with 10 Grams of Collagen Protein (per serving) including BioActive Collagen Peptides</li>
+                    <li>A Complete Protein Source Featuring 140mg of Tryptophan</li>
+                    <li>Tasteless and Odorless or Available in Delicious Flavors</li>
+                    <li>Mixes Instantly WITHOUT Clumps (in hot or cool liquids)</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Product Value Section  -->
+        <section class="row text-center text-light">
+            <div class="px-5 pt-5 col-6 col-md-3 bg-primary border border-2 border-light position-relative d-flex flex-column align-items-bottom justify-content-end">
+                <img src="https://cdn.shopify.com/s/files/1/0009/2900/5634/files/60-day-money-back-guarantee.png?33286" alt="60-Day Money Back Guarantee" width="50" height="50" class="position-absolute top-0 start-50 translate-middle">
+                <p class="pt-2 text-uppercase">60-Day Money Back Guarantee</p>
+            </div>
+            <div class="col-6 col-md-3 bg-primary border border-2 border-light position-relative d-flex flex-column align-items-bottom justify-content-end">
+                <img src="https://cdn.shopify.com/s/files/1/0009/2900/5634/files/Complete_-5-Collagen-Protein.png?33316" alt="Complete, 5-Collagen Protein" width="50" height="50" class="position-absolute top-0 start-50 translate-middle">
+                <p class="pt-2 text-uppercase">Complete, 5-Collagen Protein</p>
+            </div>
+            <div class="col-6 col-md-3 bg-primary border border-2 border-light position-relative d-flex flex-column align-items-bottom justify-content-end">
+                <img src="https://cdn.shopify.com/s/files/1/0009/2900/5634/files/Hormone_-Glutena-and-Soy-Free_0cfd5c3d-c8a2-4659-ba48-bd631a05e7e5.png?347326" alt="No Hormones, Gluten or Soy" width="50" height="50" class="position-absolute top-0 start-50 translate-middle">
+                <p class="pt-2 text-uppercase">Hormone &amp; Gluten-Free &amp; non-GMO</p>
+            </div>
+            <div class="col-6 col-md-3 bg-primary border border-2 border-light position-relative d-flex flex-column align-items-bottom justify-content-end">
+                <img src="https://cdn.shopify.com/s/files/1/0009/2900/5634/files/never-clumps_609b1d6f-1c62-4cb9-8fe5-725c0dc114bb.png?34732" alt="No Clumping" width="50" height="50" class="position-absolute top-0 start-50 translate-middle">
+                <p class="pt-2 text-uppercase">Never Clumps</p>
+            </div>
+        </section>
+
+        <!-- Feature Review Banner -->
+        <section class="bg-dark text-light row p-5">
+            <div class="col-4 border-end border-5 border-success text-end pe-5">
+                <h1>FEATURED <br> CUSTOMER <br> REVIEW</h3>
+                <a href="#reviews" class="text-decoration-none text-success fs-5">Read more reviews</a>
+            </div>
+            <div class="col-8 ps-5 text-center d-flex flex-column align-items-center justify-content-between">
+                <img src="//cdn.shopify.com/s/files/1/2451/8571/t/41/assets/featured_review_stars_small.png?v=115086123786708348821631221618" alt="review stars" width="200" class="img-fluid">
+                <p class="fs-4">"I love it! No taste or smell. I put it in my coffee first thing. Cuts my hunger and gives me energy."<br><em>Jacqueline T.&nbsp;<br></em><strong class="text-success">VERIFIED BUYER</strong><em><br></em></p>
+            </div>
+        </section>
+
+        <!-- Feature Vidoe Section  -->
+        <section class="text-center text-light bg-primary py-5">
+            <h1>Product Videos</h3>
+            <div class="row">
+                <div class="video-container-top col-12">
+                    <iframe title="Product Overview: BioTRUST Ageless Multi-Collagen Protein Powder" alt="Video product overview on BioTRUST Ageless Multi-Collagen Protein Powder" src="https://player.vimeo.com/video/299705286?playsinline=0" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" data-vimeo-tracked="true" data-ready="true" width="1000" height="700">
+                    </iframe>
+                </div>
+                <div class="video-container-bottom first-video col-6">
+                    <iframe title="Coaches Tips: Add Multi-Collagen to Your Morning Coffee" alt="Video on coaches tips to add multi-collagen to your morning coffee" src="//player.vimeo.com/video/296462656?portrait=0&amp;title=0&amp;byline=0&amp;playsinline=0" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" data-vimeo-tracked="true" data-ready="true" width="576" height="324">
+                    </iframe>
+                </div>
+                <div class="video-container-bottom second-video col-6">
+                    <iframe title="Mixability Comparison: BioTRUST Collagen VS 'The Other Collagen'" alt="Video on mixability comparison on BioTRUST Collagen vs 'The Other Collagen'" src="//player.vimeo.com/video/296462747?portrait=0&amp;title=0&amp;byline=0&amp;?playsinline=0" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" data-vimeo-tracked="true" data-ready="true" width="576" height="324">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- Frequently Bought Section  -->
+        <section class="border-bottom border-5 border-primary  px-5">
+            <h2 class="text-center text-primary py-3">Frequently Bought Together</h2>
+            <div class="content container d-flex flex-column gap-5">
+                <div class="freqItems d-flex gap-3 align-items-center">
+                    <div class="items">
+                        <img src="./imgs/mainImg.webp" alt="item 1" width="140" height="140">
+                        <span>+</span>
+                        <img src="./imgs/mainImg.webp" alt="item 1" width="140" height="140">
+                        <span>+</span>
+                        <img src="./imgs/mainImg.webp" alt="item 1" width="140" height="140">
+                    </div>
+                    <div class="freqBtn d-flex flex-column gap-3">
+                        <span>TOTAL PRICE:<b>$197.00</b></span>
+                        <buttton class="btn btn-success btn-lg text-uppercase">Add Selected to Cart</buttton>
+                    </div>
+                </div>
+                <ul class="list-group list-group-flush pb-2">
+                    <li class="list-group-item">
+                        <input type="checkbox" checked>
+                        <span>This item: Ageless Multi-Collagen® Protein Powder</span>
+                        <span>The No-Clump Collagen Protein Powder Ageless Multi-Collagen Provides You 5 Types of Collagen to Support: Healthy Skin, Hair, and NailsFootn…</span>
+                        <b>$49.00</b>
+                    </li>
+                    <li class="list-group-item">
+                        <input type="checkbox" checked>
+                        <a href="#" class="text-decoration-none">Ageless Glow® — Face & Skin Rejuvenating Serum</a>
+                        <span>Ageless Glow — Plant-Based, Skin Serum Formulated to help reduce the appearance of the most common visible signs of aging, including fine l…</span>
+                        <b>$79.00</b>
+                    </li>
+                    <li class="list-group-item">
+                        <input type="checkbox" checked>
+                        <a href="#" class="text-decoration-none">Ageless Body® — Healthy Aging Support Formula</a>
+                        <span>Mitochondria and Healthy Aging Support SupplementFootnote † Provides support for healthy cellular aging and energy levelsFootnote † Support…</span>
+                        <b>$69.00</b>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Tabs Section  -->
+        <section class="container d-flex flex-column gap-4">
+            <ul class="nav nav-tabs pt-5" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Health Benifits</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">NUTRITION & INGREDIENTS</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">FAQs</button>
+                </li>
+            </ul>
+            <div class="tab-content py-3" id="myTabContent">
+                <!-- Heath & Benifits Tab  -->
+                <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                    <h2>What Is Collagen Protein?</h2>
+                    <p>By now, you've probably seen the ads and heard people talking about collagen protein—it's everywhere. But what's all the buzz about? Is it time for you to jump on the bandwagon? And if you've already joined the masses, why should you make the switch to Ageless Multi-Collagen Protein Powder?</p>
+                    <p>In order to answer these questions, we first have to answer this one: <strong>What is collagen?</strong></p>
+                    <p>Simply put, collagen is the most abundant and arguably the most important protein in the body. In fact, collagen constitutes a whopping 30% of the protein in your body. Aside from water, <strong>collagen is the most plentiful substance in your body</strong>—pretty crazy, right?</p>
+                    <p>For example, collagen makes up 70% of the protein in our skin, and it's one of the primary structural proteins in joints, bones, cartilage, ligaments, tendons, hair, fingernails, the intestinal wall, and more. Collagen is the glue—literally, it comes from the Greek word for glue—that supports, connects, and holds everything together.</p>
+                    <p>Not surprisingly, healthy levels of collagen are vital to support:</p>
+                    <ul>
+                        <li>Smooth, healthy, young-looking skin</li><li>Strong, healthy fingernails and glossy hair</li><li>Healthy, supple joints</li><li>Bone health</li><li>Healthy digestion and gut health</li><li>Strong, healthy tendons and ligaments</li>
+                    </ul>
+                    <p>There's more—including healthy, flexible blood vessels and organ health—but the moral of the story is that collagen is a component of your entire body, and it has a tremendous impact on how you look and feel.</p>
+                    <h2>Why Do You Need a Collagen Powder?</h2>
+                    <p>When you're young, your body makes all the collagen it needs. That's why your skin is firm and glowing, your joints are supple, and your digestive system works like a champ.</p>
+                    <p>So, what happens as you get older? Your body loses its ability to make collagen, and to make matters worse, collagen might reduce more rapidly thanks to things like smoking, stress, excess sun exposure, physical activity, and diet. For example, consuming sugar, refined carbs, and poor-quality fats (such as industrial produced vegetable oils), which are common in processed foods, can all contribute to collagen depletion.</p>
+                    <p><strong>In simple terms, we produce less collagen with age.</strong></p>
+                    <p>For example, studies show that skin levels of collagen decrease by about 11 - 13% with each passing decade after the age of 20, and by the time folks hit their 80s, collagen levels may be, on average, only one-third of what they were in their 20s.</p>
+                    <p><img src="https://cdn.shopify.com/s/files/1/0009/2900/5634/files/Ageless_Collagen_Graphic.jpg?9115" alt="" width="608" height="407"></p>
+                    <p>Over time, this reduction in collagen may contribute to…</p>
+                    <ul>
+                        <li>Skin sags and wrinkles</li><li>Hair gets thinner, and nails lose their strength</li><li>Joints become stiff and less flexible</li><li>Recovery from activities like exercise slows</li><li>Occasional gut-related complaints come out of nowhere</li>
+                    </ul>
+                    <p>That may sound grim, but it's not all bad news. In fact, there's GREAT news. <strong>You can ramp up your body's collagen production by consuming more collagen protein in your diet. </strong></p>
+                </div>
+
+                <!-- Ingredients Tab -->
+                <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                    <h5 class="pb-3">AGELESS MULTI-COLLAGEN NUTRITION & INGREDIENTS</h5>
+                    <p>Ageless Multi-Collagen provides 10 grams of collagen protein per serving, and it is designed to help support healthy levels of collagen in the body.<sup><a href="#footnote-fda-disclaimer"><span class="sr-only">Footnote </span>†</a></sup> Ageless Multi-Collagen features BioActive Collagen Peptides to help support healthy skin, hair, and nails; gut, joint, and bone health; and athletic performance, recovery, and an active lifestyle.<sup><a href="#footnote-fda-disclaimer"><span class="sr-only">Footnote </span>†&nbsp;</a></sup>Ageless Multi-Collagen features five collagen types (I, II, III, V, and X) from four food sources, including pasture-raised, hormone- and antibiotic-free grass-fed beef, fish, chicken, and eggshell membrane. It comes in a tasteless and odorless unflavored version, as well as delicious flavors like vanilla, chocolate, and fruit punch. All flavors of Ageless Multi-Collagen are formulated to mix instantly in hot or cool liquids.</p>
+                </div>
+                
+                <!-- FAQs Tab -->
+                <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+                    <div id="tab-3" class="faqs">
+                        <p class="question"><strong>Q: What specifically makes Ageless Multi-Collagen the right choice&nbsp;for a collagen supplement?</strong></p>
+                        <p>Simply put, Ageless Multi-Collagen features FIVE key types of collagen (I, II, III, V, and X) to provide support for an array of &nbsp;full-body benefits. The collagen protein in Ageless Multi-Collagen comes from FOUR different sources, including pasture-raised beef, fish, egg, and chicken. Each serving of Ageless Multi-Collagen delivers 10 grams of bioactive collagen protein, providing your body the building blocks it needs to support healthy joints, bones, skin, hair, and nails, gut health, and more.<sup><a href="#"><span class="sr-only">Footnote </span>†</a></sup> It also contains the amino acid tryptophan, and it features naturally hydrolyzed collagen peptides.</p>
+                        <p class="question"><strong>Q: What is the best way to use Ageless Multi-Collagen? </strong></p>
+                        <p>Simply add 1 scoop to at least 8 ounces of any hot or cool liquid and mix thoroughly. You can add Ageless Multi-Collagen to protein shakes, smoothies, coffee, tea, soups, and recipes.</p>
+                        <p class="question"><strong>Q: How long will a bag of Ageless Multi-Collagen last?</strong></p>
+                        <p>Each bag contains 20 to 40 servings depending on how you use it. Each full serving provides 10 grams of collagen protein; some of our customers add a half-serving (5 grams of collagen) to coffee and protein drinks for a collagen boost.</p>
+                        <p class="question"><strong>Q: Does this product contain caffeine or any other stimulants? </strong></p>
+                        <p>No. This product is caffeine- and stimulant-free.</p>
+                        <p class="question"><strong>Q: Are there any allergy concerns with this product? </strong></p>
+                        <p>This product contains ingredients from eggs and fish, and it is manufactured in a facility that also processes tree nuts, peanuts, wheat, and soy. Always review the label for the most accurate information.</p>
+                        <p class="question"><strong>Q: If I have a medical condition, can I take this product? </strong></p>
+                        <p>Ageless Multi-Collagen is intended for use by healthy adults over 18 years old. Do not take this product if you are pregnant or nursing. Consult your physician before use if you are taking any prescription or over-the-counter medications or are being treated for any medical condition. Discontinue use and consult your physician if you experience any adverse reaction to this product.</p>
+                        <p class="question"><strong>Q: What if this product doesn’t work for me?</strong></p>
+                        <p>While Ageless Multi-Collagen was created to work, if for any reason at all you are unsatisfied with your purchase, just send it back to us, and we will issue a prompt and courteous refund even on empty bags. You’re always protected by our naturally honest 60-Day Money Back Guarantee.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </div>
 
 
+    <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>
