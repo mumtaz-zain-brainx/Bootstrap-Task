@@ -57,7 +57,7 @@
                         <!-- Carousel Secition  -->
                         <div class="col text-center d-flex flex-column align-items-center  d-lg-none">
                             <!-- Title  -->
-                            <h3 itemprop="name" class="txtClr fw-bold">AGELESS MULTI-COLLAGEN® PROTEIN POWDER</h1>
+                            <h1 class="txtClr fontSizeh1">AGELESS MULTI-COLLAGEN® PROTEIN POWDER</h1>
                                 <!-- Rating  -->
                                 <div class="d-flex flex-column flex-md-row">
                                     <img src="//cdn.shopify.com/s/files/1/2451/8571/t/41/assets/featured_review_stars_small.png?v=115086123786708348821631221618" alt="review stars">
@@ -103,120 +103,113 @@
                 <div class="col-md-6 col-12 d-flex flex-column gap-5 justify-content-beteen align-items-center ">
                     <!-- Package Price Title -->
                     <div class="packageTitle text-center">
-                        <span class=" txtClr fw-bold fs-3">Choose Your Package</span><br>
-                        <span>Select your money-saving option below:</span>
+                        <span class=" txtClr fontSizeh1" style="font-size: 24px;">Choose Your Package</span><br>
+                        <div class="fontSizeSubtitle">Select your money-saving option below:</span>
                     </div>
                     <!--Package Buttons -->
                     <div class="buttons d-flex gap-2 w-100">
                         <button type="button" class="btnStyle borderStyle bgClrBlue text-light fw-bold">One-Time Purchase</button>
-                        <button type="button" class="btnStyle bg-light txtClr" >Subscribe & Save 36%</button>
+                        <button type="button" class="btnStyle bg-light txtClr position-relative" >
+                            Subscribe & Save 36%
+                            <span class="position-absolute top-0 start-100 translate-middle badge rounded-circle bgClrGreen text-light"
+                            data-bs-toggle="tooltip"
+                            data-bs-placement="bottom"
+                            data-bs-title="Tooltip Sample Text"
+                            data-bs-custom-class="custom-tooltip">
+                                <span style="font-size: 10px;">?</span>
+                                <span class="visually-hidden">unread messages</span>
+                            </span>
+                        </button>
                     </div>
 
                     <!--Package Cards  -->
-                    <div class="cards wrapper text-center px-3 d-none d-lg-flex">
-                        <div class="col-4 px-5 py-4 d-flex flex-column justify-content-between align-items-center borderStyle">
-                            <div>
-                                <h2 class="txtClr fw-bold">1 Bag</h3>
-                                <h2 class="fw-bold">$49</h3>
-                            </div>
-                            <button class="cardBtn bgClrGreen text-light border-0">CHOOSE FLAVOR</button>
-                        </div>
-                        <div class="position-relative col-4 d-flex flex-column align-items-center popBorderStyle">
-                            <div class="position-absolute top-0 left-0 bgClrBlue w-100 text-light "><h4>Most Popular</h4></div>
-                            <div class="px-5 pt-5 pb-4 d-flex flex-column justify-content-between align-items-center">
-                                <div>
-                                    <h2 class="txtClr fw-bold">3 Bags</h3>
-                                    <h3 class="fw-bold text-success">$35 <br>Per Bag <br><span class="text-danger fs-5">(Save 28%)</span></h3>
+                    <div class="cardWrapper">
+                        <div class="cardWrapperInner">
+                            <div class="pkgCard">
+                                <div class=" d-lg-none pkgImg">
+                                    <img src="https://cdn.shopify.com/s/files/1/2451/8571/t/3/assets/buy-1-1571245639778.png" alt="product image 1 item">
                                 </div>
-                                <button class="cardBtn bgClrGreen text-light border-0">CHOOSE FLAVORS</button>
-                            </div>
-                        </div>
-                        <div class="col-4 px-5 py-4 d-flex flex-column justify-content-between align-items-center  borderStyle">
-                            <div>
-                                <h2 class="txtClr fw-bold">6 Bags</h3>
-                                <h3 class="fw-bold text-success">$31 <br>Per Bag <br><span class="text-danger fs-5">(Save 36%)</span></h3>
-                            </div>
-                            <button class="cardBtn bgClrGreen text-light border-0">CHOOSE FLAVORS</button>
-                        </div>
-                    </div>
-
-                    <!-- Long Package Cards -->
-                    <div class="longCards d-lg-none w-100 my-0 d-flex flex-column gap-2">
-                        <div class="borderStyle d-flex gap-2 w-100 px-2">
-                            <div class="w-25 py-2">
-                                <img src="https://cdn.shopify.com/s/files/1/2451/8571/t/3/assets/buy-1-1571245639778.png" alt="product image 1 item">
-                            </div>
-                            <div class=" w-75 d-flex gap-3 justify-content-center align-items-center ">
-                                <div class="pricingwrapper">
-                                    <span class="fs-5 txtClr fw-bold">1 Bag</h3>
-                                    <span class="text-dark">$49</span>
-                                </div>
-                                
-                                <div>
-                                    <button class="cardBtn bgClrGreen text-light border-0" type="button" quantity="1">Choose Flavor</button>
+                                <div class="pkgContent">
+                                    <div class="pricingwrapper">
+                                        <h3 class="pkgTitle">1 Bag</h3>
+                                        <span class="secondpackage"></span>
+                                        <span class="pkgPrice">$49</span>
+                                    </div>
+                                    <div class="pkgCardBtn">
+                                        <button class="" type="button" quantity="1">Choose Flavor</button>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="popBorderStyleLong w-100 d-flex gap-3 px-2">
-                            <div class="w-25 py-2">
-                                <img src="https://cdn.shopify.com/s/files/1/2451/8571/t/3/assets/buy-3-1571245639780.png" alt="product image 3 item">
-                            </div>
-                            <div class="w-75 d-flex justify-content-between align-items-center ">
-                                <div class="">
-                                    <span class="fs-5 txtClr fw-bold">3 Bags</h3>
-                                    <span class="text-success fw-bold">$35</span>
-                                    <span class="fw-normal txtClrGreen" style="font-size: 13px;">Per Bag</span>
-                                    <br>
-                                    <span class="text-danger " style="font-size: 15px;">(Save 28%)</span>                           
+                            <div class="pkgCard popPkgBorder" >
+                                <div class="mostpop d-lg-block d-none">Most Popular</div>
+                                <div class="d-lg-none pkgImg">
+                                    <img src="https://cdn.shopify.com/s/files/1/2451/8571/t/3/assets/buy-3-1571245639780.png" alt="product image 3 item"> 
                                 </div>
-                                <div class="d-flex flex-column gap-3 py-3">
-                                    <button class="cardBtn bgClrGreen text-light border-0" type="button" quantity="3">Choose Flavors</button>
-                                    <div class="txtClr fw-bold fst-italic" style="font-size: 12px;">Most Popular!</div>
+                                <div class="pkgContent">
+                                    <div class="pricingwrapper">
+                                        <h3 class="pkgTitle">3 Bags</h3>
+                                        <span class="secondpackage"></span>
+                                        <span class="pkgPrice offerClr" >$35</span>
+                                        <span class="pkgPrice offerClr perPack">Per Bag</span>
+                                        <div class="saveOffer">
+                                            <p>(Save 28%)</p>
+                                        </div>
+                                    </div>
+                                    <div class="pkgCardBtn d-flex flex-column align-items-center">
+                                        <button  type="button" quantity="3">Choose Flavors</button>
+                                        <div class="mostpopmobile d-lg-none">Most Popular!</div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="borderStyle w-100 d-flex gap-3 px-2">
-                            <div class="w-25 py-2">
-                                <img src="https://cdn.shopify.com/s/files/1/2451/8571/t/3/assets/buy-6-1571245639782.png" alt="product image 6 item">
-                            </div>
-                            <div class="w-75 d-flex justify-content-between align-items-center ">
-                                <div class="">
-                                    <span class="fs-5 txtClr fw-bold">6 Bags</h3>
-                                    <span class="text-success fw-bold">$31</span>
-                                    <span class="fw-normal txtClrGreen" style="font-size: 13px;">Per Bag</span>
-                                    <br>
-                                    <span class="text-danger " style="font-size: 15px;">(Save 36%)</span>                           
+                            <div class="pkgCard">
+                                <div class="d-lg-none pkgImg">
+                                    <img src="https://cdn.shopify.com/s/files/1/2451/8571/t/3/assets/buy-6-1571245639782.png" alt="product image 6 item">
                                 </div>
-                                <div class="d-flex flex-column gap-3 py-3">
-                                    <button class="cardBtn bgClrGreen text-light border-0" type="button" quantity="3">Choose Flavors</button>
+                                <div class="pkgContent">
+                                    <div class="pricingwrapper">
+                                        <h3 class="pkgTitle">6 Bags</h3>
+                                        <span class="secondpackage"></span>
+                                        <span class="pkgPrice offerClr">$31</span>
+                                        <span class="pkgPrice offerClr perPack">Per Bag</span>
+                                        <div class="saveOffer">
+                                            <p>(Save 36%)</p>
+                                        </div>
+                                    
+                                    </div>
+                                    <div class="pkgCardBtn">
+                                        <button  type="button" quantity="6">Choose Flavors</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <!-- Horizotal Carousel -->
-                    <div class="bg-secondary w-100 text-center">
-                        <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel">
-
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img src="./imgs/mainImg.webp" width="100" height="100" class="img-thumbail mx-auto d-block"  alt="...">
+                    <div class="w-100 text-center">
+                        <span class="horizontalCaroselTitle " tabindex="0" role="heading">PHOTOS FROM THE #biotrust COMMUNITY</span>
+                        <div class="bg-secondary mt-3">
+                            <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel">
+    
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="./imgs/mainImg.webp" width="100" height="100" class="img-thumbail mx-auto d-block"  alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./imgs/mainImg.webp" width="100" height="100" class="img-thumbail mx-auto d-block"  alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./imgs/mainImg.webp" width="100" height="100" class="img-thumbail mx-auto d-block"  alt="...">
+                                    </div>
                                 </div>
-                                <div class="carousel-item">
-                                    <img src="./imgs/mainImg.webp" width="100" height="100" class="img-thumbail mx-auto d-block"  alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="./imgs/mainImg.webp" width="100" height="100" class="img-thumbail mx-auto d-block"  alt="...">
-                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
                             </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                              <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                              <span class="visually-hidden">Next</span>
-                            </button>
                         </div>
                     </div>
                 </div>
@@ -279,7 +272,7 @@
                 </div>
                 <div class="col-12 col-md-8 ps-md-5 pt-3 text-center d-flex flex-column align-items-center justify-content-between">
                     <img src="//cdn.shopify.com/s/files/1/2451/8571/t/41/assets/featured_review_stars_small.png?v=115086123786708348821631221618" alt="review stars" width="200"  class="responsive-img w-2 ">
-                    <p class="fs-4">"I love it! No taste or smell. I put it in my coffee first thing. Cuts my hunger and gives me energy."<br><em>Jacqueline T.&nbsp;<br></em><strong class="text-success">VERIFIED BUYER</strong><em><br></em></p>
+                    <p class="fs-4">"I love it! No taste or smell. I put it in my coffee first thing. Cuts my hunger and gives me energy."<br><em>Jacqueline T.&nbsp;<br></em><strong class="txtClrGreen">VERIFIED BUYER</strong><em><br></em></p>
                 </div>
             </div>
         </section>
@@ -501,5 +494,6 @@
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="./app.js"></script>
 </body>
 </html>
