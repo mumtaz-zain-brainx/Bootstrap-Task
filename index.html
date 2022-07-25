@@ -307,48 +307,58 @@
         </section>
 
         <!-- Frequently Bought Section  -->
-        <section class="px-md-5 px-2" style="border-bottom: 6px solid #0d4f9a;">
-            <h2 class="text-center txtClr py-3">Frequently Bought Together</h2>
-            <div class="content d-flex flex-column gap-5">
-                <div class="freqItems d-flex gap-3  align-items-center flex-wrap">
-                    <div class="items d-flex align-items-center w-50">
-                        <div class="w-25">
-                            <img src="./imgs/mainImg.webp" alt="item 1" class="w-100">
-                        </div>
+        <section class="freqBought">
+            <h2>Frequently Bought Together</h2>
+            <div class="freqItemsSection">
+                <ul class="freqItems" aria-hidden="true" role="none">
+                    <li>
+                        <img src="https://cdn.shopify.com/s/files/1/2451/8571/products/collagen-unflavored-5.17.21_280x280.png?v=1657121683" alt="Product Image">
                         <span>+</span>
-                        <div class="w-25">
-                            <img src="./imgs/mainImg.webp" alt="item 1" class="w-100">
-                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="https://cdn.shopify.com/s/files/1/2451/8571/products/agelessglow-pdp-01_30f4546b-3c33-4b63-bbca-566f4716aa34_280x280.png?v=1646763518" alt="Product Image">
+                        </a>
                         <span>+</span>
-                        <div class="w-100">
-                            <img src="./imgs/mainImg.webp" alt="item 1" class="w-25">
-                        </div>
-                    </div>
-                    <div class="freqBtn d-flex flex-column align-items-center gap-3">
-                        <span>TOTAL PRICE:<b>$197.00</b></span>
-                        <buttton class="cardBtn bgClrGreen text-light  fw-normal border-0 text-uppercase">Add Selected to Cart</buttton>
-                    </div>
-                </div>
-                <ul class="list-group list-group-flush pb-2 m-md-auto m-0">
-                    <li class="list-group-item">
-                        <input type="checkbox" checked>
-                        <span>This item: Ageless Multi-Collagen® Protein Powder</span>
-                        <span>The No-Clump Collagen Protein Powder Ageless Multi-Collagen Provides You 5 Types of Collagen to Support: Healthy Skin, Hair, and NailsFootn…</span>
-                        <b>$49.00</b>
                     </li>
-                    <li class="list-group-item">
-                        <input type="checkbox" checked>
-                        <a href="#" class="text-decoration-none">Ageless Glow® — Face & Skin Rejuvenating Serum</a>
-                        <span>Ageless Glow — Plant-Based, Skin Serum Formulated to help reduce the appearance of the most common visible signs of aging, including fine l…</span>
-                        <b>$79.00</b>
-                    </li>
-                    <li class="list-group-item">
-                        <input type="checkbox" checked>
-                        <a href="#" class="text-decoration-none">Ageless Body® — Healthy Aging Support Formula</a>
-                        <span>Mitochondria and Healthy Aging Support SupplementFootnote † Provides support for healthy cellular aging and energy levelsFootnote † Support…</span>
-                        <b>$69.00</b>
+                    <li>
+                        <a href="#">
+                            <img src="https://cdn.shopify.com/s/files/1/2451/8571/products/pdp-ageless-body_280x280.png?v=1626189216" alt="Product Image">
+                        </a>
+                        <span>+</span>
                     </li>
                 </ul>
+                <div class="freqPriceSection">
+                    <div class="price">
+                        <span class="label">TOTAL PRICE:</span>
+                        <span class="amount">$197.00</span>
+                    </div>
+                    <button>
+                        <span>ADD SELECTED TO CART</span>
+                    </button>
+                </div>
+            </div>
+            <ul class="list-group list-group-flush pb-2 m-md-auto m-0">
+                <li class="list-group-item">
+                    <input type="checkbox" checked>
+                    <span class="txtClr fw-bold">This item: Ageless Multi-Collagen® Protein Powder</span>
+                    <span>The No-Clump Collagen Protein Powder Ageless Multi-Collagen Provides You 5 Types of Collagen to Support: Healthy Skin, Hair, and NailsFootn…</span>
+                    <b>$49.00</b>
+                </li>
+                <li class="list-group-item">
+                    <input type="checkbox" checked>
+                    <a href="#" class="text-decoration-none">Ageless Glow® — Face & Skin Rejuvenating Serum</a>
+                    <span>Ageless Glow — Plant-Based, Skin Serum Formulated to help reduce the appearance of the most common visible signs of aging, including fine l…</span>
+                    <b>$79.00</b>
+                </li>
+                <li class="list-group-item">
+                    <input type="checkbox" checked>
+                    <a href="#" class="text-decoration-none">Ageless Body® — Healthy Aging Support Formula</a>
+                    <span>Mitochondria and Healthy Aging Support SupplementFootnote † Provides support for healthy cellular aging and energy levelsFootnote † Support…</span>
+                    <b>$69.00</b>
+                </li>
+            </ul>
+            <div class="content d-flex flex-column gap-5">
             </div>
         </section>
 
