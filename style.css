@@ -76,16 +76,13 @@ a{
     border-radius: 5px;
     text-align: center;
 }
+
 .cardBtn{
     padding: 12px 20px !important;
     font-size: 16px;
     font-weight: bold;
     width: 100%;
     border-radius: 5px;
-}
-
-.featureDivider{
-    border-right: 10px solid #2bb34d;
 }
 
 
@@ -96,6 +93,8 @@ a{
     line-height: 1.2;
     letter-spacing: .5px;
 }
+
+/* Hero Card Section  */
 
 .cardWrapper{
     width: 100%;
@@ -197,6 +196,9 @@ a{
     border-width: 7px;
 }
 
+
+/* Product Value Section  */
+
 .productValue{
     border-top: 7px #0D4F9A solid;
 }
@@ -217,8 +219,54 @@ a{
     padding-right: 35px;
 }
 
+/* Feature Review Banner  */
+
+.featureHeader{
+    border-right: 8px solid #2bb34d;
+    height: 250px;
+    padding-right: 55px;
+    text-align: rights;
+}
+
+.featureHeader h3{
+    font-size: 56px;
+    font-weight: 700;
+    margin-bottom: unset;
+    text-transform: none;
+    letter-spacing: 0;
+    line-height: 1.2;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.featureHeader a{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.featureHeader a:hover{
+    color: #1f8238;
+}
+
+
+.featureReview img{
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.featureReview p{
+    font-size: 24px;
+    margin-bottom: unset;
+    font-weight: 500;
+    padding-right: 35px;
+    padding-left: 55px;
+    text-align: center;
+}
 
 @media screen  and (max-width: 990px){
+    /* Hero Cards Style  */
     .cardWrapperInner{
         grid-template-columns: 1fr;
         gap: 15px;
@@ -259,19 +307,25 @@ a{
     .saveOffer{
         font-size: 15px;
     }
+
+    /* Feature Review Banner  */
+    .featureHeader{
+        height: 150px;
+    }
+    .featureHeader h3{
+        font-size: 32px;
+    }
 }
 
 @media screen and (max-width: 900px){
+    /* Hero Card  */
     .popPkgBorder{
         border-color: #2bb34d;
     }
 }
 
 @media screen and (max-width: 768px){
-    .featureDivider{
-        border-bottom: 10px solid #2bb34d;
-        border-right: none;
-    }
+    
     .productValue img{
         top: unset!important;
         margin-top: 22px;
@@ -282,5 +336,21 @@ a{
         padding-left: 12px;
         padding-right: 12px;
         vertical-align: top;
+    }
+    /* Feature Review Banner  */
+    .featureHeader{
+        border-bottom: 12px solid #2bb34d;
+        border-right: unset;
+        width: 80%;
+        height: 250px;
+        margin-left: auto!important;
+        margin-right: auto!important;
+        padding-bottom: 35px;
+        margin-bottom: 35px;
+        padding-right: unset;
+        text-align: center;
+    }
+    .featureHeader h3{
+        font-size: 40px;
     }
 }
