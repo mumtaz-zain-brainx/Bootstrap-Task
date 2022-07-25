@@ -197,6 +197,27 @@ a{
     border-width: 7px;
 }
 
+.productValue{
+    border-top: 7px #0D4F9A solid;
+}
+
+.productValue img{
+    position: relative;
+    top: -25px;
+}
+
+.productValueItem{
+    text-align: center!important;
+    text-transform: uppercase;
+    border-left: 0.5px solid var(--color-border,#e8e9eb);
+    border-right: 0.5px solid var(--color-border,#e8e9eb);
+    border-top: 2px solid var(--color-border,#e8e9eb);
+    border-bottom: 2px solid var(--color-border,#e8e9eb);
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+
 @media screen  and (max-width: 990px){
     .cardWrapperInner{
         grid-template-columns: 1fr;
@@ -250,5 +271,16 @@ a{
     .featureDivider{
         border-bottom: 10px solid #2bb34d;
         border-right: none;
+    }
+    .productValue img{
+        top: unset!important;
+        margin-top: 22px;
+        margin-bottom: 8px;
+    }
+    .productValueItem{
+        border: none;
+        padding-left: 12px;
+        padding-right: 12px;
+        vertical-align: top;
     }
 }
