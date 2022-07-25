@@ -230,9 +230,7 @@ a{
 
 /* Product Value Section  */
 
-.productValue{
-    border-top: 7px #0D4F9A solid;
-}
+
 
 .productValue img{
     position: relative;
@@ -521,6 +519,9 @@ a{
 
 @media screen and (max-width: 768px){
     
+    .productValue{
+        border-top: 7px #0D4F9A solid;
+    }
     .productValue img{
         top: unset!important;
         margin-top: 22px;
