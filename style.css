@@ -20,6 +20,13 @@ a{
     text-transform: uppercase;
 }
 
+.fontSizeh4{
+    font-size: 20px;
+    color: #333;
+    margin: 0 0 27px;
+    font-weight: 600;
+}
+
 .fontSizeSubtitle{
     font-size: 16px!important;
     text-transform: none;
