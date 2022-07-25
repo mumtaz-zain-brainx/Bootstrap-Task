@@ -31,7 +31,6 @@
                 <div class="col-md-6 col-12">
                     <div class="row ">
                         <div class="col-3 text-center d-none d-lg-block">
-                            Verticle Carosel
                         </div>
                         <!-- Main Image  -->
                         <div class="col-12 col-md-9 d-none d-lg-flex flex-column justify-content-between align-items-center text-center">
@@ -108,8 +107,8 @@
                     </div>
                     <!--Package Buttons -->
                     <div class="buttons d-flex gap-2 w-100">
-                        <button type="button" class="btnStyle borderStyle bgClrBlue text-light fw-bold">One-Time Purchase</button>
-                        <button type="button" class="btnStyle bg-light txtClr position-relative" >
+                        <button type="button" id="mainBtn1" class="btnStyle borderStyle bgClrBlue text-light fw-bold">One-Time Purchase</button>
+                        <button type="button" id="mainBtn2" class="btnStyle bg-light txtClr position-relative" >
                             Subscribe & Save 36%
                             <span class="position-absolute top-0 start-100 translate-middle badge rounded-circle bgClrGreen text-light"
                             data-bs-toggle="tooltip"
@@ -122,22 +121,20 @@
                         </button>
                     </div>
 
-                    <!--Package Cards  -->
-                    <div class="cardWrapper">
-                        <div class="cardWrapperInner">
+                    <!--Package Cards 1 -->
+                    <div id="pkgCards1"  class="cardWrapper">
+                        <div  class="cardWrapperInner">
                             <div class="pkgCard">
                                 <div class=" d-lg-none pkgImg">
                                     <img src="https://cdn.shopify.com/s/files/1/2451/8571/t/3/assets/buy-1-1571245639778.png" alt="product image 1 item">
                                 </div>
-                                <div class="pkgContent">
-                                    <div class="pricingwrapper">
-                                        <h3 class="pkgTitle">1 Bag</h3>
-                                        <span class="secondpackage"></span>
-                                        <span class="pkgPrice">$49</span>
-                                    </div>
-                                    <div class="pkgCardBtn">
-                                        <button class="" type="button" quantity="1">Choose Flavor</button>
-                                    </div>
+                                <div class="pricingwrapper">
+                                    <h3 class="pkgTitle">1 Bag</h3>
+                                    <span class="secondpackage"></span>
+                                    <span class="pkgPrice">$49</span>
+                                </div>
+                                <div class="pkgCardBtn">
+                                    <button class="" type="button" quantity="1">Choose Flavor</button>
                                 </div>
                             </div>
                             <div class="pkgCard popPkgBorder" >
@@ -145,40 +142,95 @@
                                 <div class="d-lg-none pkgImg">
                                     <img src="https://cdn.shopify.com/s/files/1/2451/8571/t/3/assets/buy-3-1571245639780.png" alt="product image 3 item"> 
                                 </div>
-                                <div class="pkgContent">
-                                    <div class="pricingwrapper">
-                                        <h3 class="pkgTitle">3 Bags</h3>
-                                        <span class="secondpackage"></span>
-                                        <span class="pkgPrice offerClr" >$35</span>
-                                        <span class="pkgPrice offerClr perPack">Per Bag</span>
-                                        <div class="saveOffer">
-                                            <p>(Save 28%)</p>
-                                        </div>
-                                    </div>
-                                    <div class="pkgCardBtn d-flex flex-column align-items-center">
-                                        <button  type="button" quantity="3">Choose Flavors</button>
-                                        <div class="mostpopmobile d-lg-none">Most Popular!</div>
-                                    </div>
+                                <div>
+                                    <h3 class="pkgTitle">3 Bags</h3>
+                                    <span class="secondpackage"></span>
+                                    <span class="pkgPrice offerClr" >$35</span>
+                                    <span class="pkgPrice offerClr perPack">Per Bag</span>
+                                    <span class="saveOffer">(Save 28%)</span>
                                 </div>
+                                <div class="pkgCardBtn d-flex flex-column align-items-center">
+                                    <button  type="button" quantity="3">Choose Flavors</button>
+                                    <div class="mostpopmobile d-lg-none">Most Popular!</div>
+                                </div>
+                                
                             </div>
                             <div class="pkgCard">
                                 <div class="d-lg-none pkgImg">
                                     <img src="https://cdn.shopify.com/s/files/1/2451/8571/t/3/assets/buy-6-1571245639782.png" alt="product image 6 item">
                                 </div>
-                                <div class="pkgContent">
-                                    <div class="pricingwrapper">
-                                        <h3 class="pkgTitle">6 Bags</h3>
-                                        <span class="secondpackage"></span>
-                                        <span class="pkgPrice offerClr">$31</span>
-                                        <span class="pkgPrice offerClr perPack">Per Bag</span>
-                                        <div class="saveOffer">
-                                            <p>(Save 36%)</p>
-                                        </div>
-                                    
-                                    </div>
-                                    <div class="pkgCardBtn">
-                                        <button  type="button" quantity="6">Choose Flavors</button>
-                                    </div>
+                                <div>
+                                    <h3 class="pkgTitle">6 Bags</h3>
+                                    <span class="secondpackage"></span>
+                                    <span class="pkgPrice offerClr">$31</span>
+                                    <span class="pkgPrice offerClr perPack">Per Bag</span>
+                                    <span class="saveOffer">(Save 36%)</span>
+                                </div>
+                                <div class="pkgCardBtn">
+                                    <button  type="button" quantity="6">Choose Flavors</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Package Cards 2 -->
+                    <div id="pkgCards2"  class="cardWrapper d-none">
+                        <div  class="cardWrapperInner">
+                            <div class="pkgCardBorder cardBorderPop pkgCardSecondary">
+                                <div class="mostpop d-lg-block d-none">Most Popular</div>
+                                <div class="d-lg-none pkgImg">
+                                    <img src="https://cdn.shopify.com/s/files/1/2451/8571/t/3/assets/buy-3-1571245639780.png" alt="product image 3 item"> 
+                                </div>
+                                <div>
+                                    <h3 class="pkgTitle">1 Bag</h3>
+                                    <span class="pkgDelivery">Every 4 Weeks</span>
+                                    <span class="pricingbuy1 prices">
+                                        <strike  class="pkgOldPrice">$49</strike><br>
+                                        <span class="pkgPrice offerClr">$31 Per Bag </span>
+                                        <span class="saveOffer">(Save $18)</span><br>
+                                        <strong class="freeShipping">+ FREE SHIPPING</strong>
+                                    </span>
+                                </div>
+                                
+                                <div class="pkgCardBtn d-flex flex-column align-items-center">
+                                    <button  type="button" quantity="3">Choose Flavors</button>
+                                    <div class="mostpopmobile d-lg-none">Most Popular!</div>
+                                </div>
+                            </div>
+                            <div class="pkgCardBorder pkgCardSecondary">
+                                <div class="d-lg-none pkgImg">
+                                    <img src="https://cdn.shopify.com/s/files/1/2451/8571/t/3/assets/buy-3-1571245639780.png" alt="product image 3 item"> 
+                                </div>
+                                <div>
+                                    <h3 class="pkgTitle">2 Bags</h3>
+                                    <span class="pkgDelivery">Every 4 Weeks</span>
+                                    <span class="pricingbuy1 prices" >
+                                        <strike  class="pkgOldPrice">$49</strike><br>
+                                        <span class="pkgPrice offerClr">$31 Per Bag </span>
+                                        <span class="saveOffer">(Save $36)</span><br>
+                                        <strong class="freeShipping">+ FREE SHIPPING</strong>
+                                    </span>
+                                </div>
+                                <div class="pkgCardBtn d-flex flex-column align-items-center">
+                                    <button  type="button" quantity="3">Choose Flavors</button>
+                                </div>
+                            </div>
+                            <div class="pkgCardBorder pkgCardSecondary">
+                                <div class="d-lg-none pkgImg">
+                                    <img src="https://cdn.shopify.com/s/files/1/2451/8571/t/3/assets/buy-3-1571245639780.png" alt="product image 3 item"> 
+                                </div>
+                                <div>
+                                    <h3 class="pkgTitle">3 Bags</h3>
+                                    <span class="pkgDelivery">Every 4 Weeks</span>
+                                    <span class="pricingbuy1 prices">
+                                        <strike  class="pkgOldPrice">$49</strike><br>
+                                        <span class="pkgPrice offerClr">$31 Per Bag </span>
+                                        <span class="saveOffer">(Save $54)</span><br>
+                                        <strong class="freeShipping">+ FREE SHIPPING</strong>
+                                    </span>
+                                </div>
+                                <div class="pkgCardBtn d-flex flex-column align-items-center">
+                                    <button  type="button" quantity="3">Choose Flavors</button>
                                 </div>
                             </div>
                         </div>

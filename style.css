@@ -61,6 +61,7 @@ a{
 }
 .popBorderStyle{
     border: 6px solid #0d4f9a;
+    border-top: 0;
 }
 .popBorderStyleLong{
     border: 6px solid #2bb34d;
@@ -68,6 +69,8 @@ a{
 .topBorder{
     border-top: 6px solid #0d4f9a;
 }
+
+/* Hero Buttons  */
 
 .btnStyle{
     padding: 18px;
@@ -77,15 +80,8 @@ a{
     text-align: center;
 }
 
-.cardBtn{
-    padding: 12px 20px !important;
-    font-size: 16px;
-    font-weight: bold;
-    width: 100%;
-    border-radius: 5px;
-}
-
-
+/* Hero Carosel  */
+ 
 .horizontalCaroselTitle{
     color: #0D4F9A;
     font-size: 16px;
@@ -124,6 +120,7 @@ a{
     color: #0D4F9A;
     margin-top: 24px;
 }
+
 
 .pkgPrice{
     color: #333;
@@ -180,14 +177,13 @@ a{
 
 .mostpopmobile {
     display: inline-block;
-    font-size: 14px;
+    font-size: 12px;
     letter-spacing: 0;
     line-height: 0;
     margin: 0;
-    margin-top: 10px;
     width: 100%;
     text-align: center;
-    font-weight: 900;
+    font-weight: 800;
     font-style: italic;
     color: #0D4F9A;
 }
@@ -196,6 +192,41 @@ a{
     border-width: 7px;
 }
 
+
+/* Secondary Package cards */
+
+
+#pkgCards2 .pkgPrice{
+    font-size: 36px;
+}
+
+#pkgCards2 .pkgCardBorder{
+    border: 2px solid #0D4F9A;
+}
+
+#pkgCards2 .cardBorderPop{
+    border-width: 6px;
+    border-top:0;
+}
+
+.pkgDelivery{
+    display: block;
+    font-size: 23px;
+    margin: 0 auto;
+    line-height: 28px;
+    color: #0D4F9A;
+}
+
+.pkgOldPrice{
+    font-size: 25px;
+    color: #333;
+}
+
+
+.freeShipping{
+    padding: 0 0 5px;
+    font-size: 16px;
+}
 
 /* Product Value Section  */
 
@@ -405,7 +436,7 @@ a{
     }
     .pkgImg{
         width: 25%;
-        
+        margin-left: 5px;
     }
     .pkgImg > img{
         width: 75px;
@@ -418,12 +449,9 @@ a{
         justify-content: space-between;
         margin: 0;
     }
-    .pricingwrapper{
-        margin-bottom: 20px;
-    }
     .pkgTitle{
         font-size: 21px;
-
+        margin-top: 12px;
     }
     .pkgPrice{
         font-size: 21px;
@@ -433,6 +461,46 @@ a{
     }
     .saveOffer{
         font-size: 15px;
+    }
+
+    /* Secondary Package cards */
+
+    .pkgCardSecondary{
+        display: flex;
+        align-items: center;
+    }
+
+    .pkgCardSecondary img{
+        margin-left: 10px;
+    }
+
+    #pkgCards2 .pkgPrice{
+        font-size: 16px;
+    }
+
+    #pkgCards2 .pkgCardBorder{
+        border: 2px solid #0D4F9A;
+    }
+
+    #pkgCards2 .cardBorderPop{
+        border: 6px solid #2bb34d;
+    }
+
+    .pkgDelivery{
+        font-size: 13px;
+        margin: 0 auto;
+        line-height: 2px;
+    }
+
+    .pkgOldPrice{
+        font-size: 19px;
+        color: #333;
+    }
+
+
+    .freeShipping{
+        padding: 0 0 5px;
+        font-size: 12px;
     }
 
     /* Feature Review Banner  */
